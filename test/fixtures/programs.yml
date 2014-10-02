@@ -1,0 +1,242 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# $(".img_side_content img").map(function() { console.log('title: "'+this.alt+'"\ncover: "'+this.src+'"\n') }).get()
+1:
+  title: "Dragons 2"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/06/05/15/47/538891.jpg"
+
+2:
+  title: "Nos étoiles contraires"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/06/18/17/18/218720.jpg"
+
+3:
+  title: "Les Gardiens de la Galaxie"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/08/04/15/09/405662.jpg"
+
+4:
+  title: "Pride"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/14/07/02/16/01/158254.jpg"
+
+5:
+  title: "X-Men: Days of Future Past"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/14/03/24/14/35/575642.jpg"
+
+6:
+  title: "Boyhood"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/06/24/10/51/324219.jpg"
+
+7:
+  title: "The Raid 2"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/06/18/17/17/049080.jpg"
+
+8:
+  title: "Captain America, le soldat de l'hiver"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/01/31/17/06/486036.jpg"
+
+9:
+  title: "Mylène Farmer - Timeless 2013 le film"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/13/12/18/17/27/228521.png"
+
+10:
+  title: "Edge Of Tomorrow"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/05/23/17/03/300170.jpg"
+
+11:
+  title: "New York Melody"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/14/06/23/11/20/345859.jpg"
+
+12:
+  title: "Qu'est-ce qu'on a fait au Bon Dieu?"
+  cover: "http://fr.web.img6.acsta.net/cx_120_160/pictures/14/03/04/14/58/474265.jpg"
+
+13:
+  title: "Diplomatie"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/14/01/24/16/11/590379.jpg"
+
+14:
+  title: "Divergente"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/02/07/17/46/287879.jpg"
+
+15:
+  title: "Maléfique"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/14/04/03/12/56/160545.jpg"
+
+16:
+  title: "Veronica Mars"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/02/26/17/12/352874.jpg"
+
+17:
+  title: "La Planète des singes : l'affrontement"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/14/07/03/16/07/192966.jpg"
+
+18:
+  title: "Le rôle de ma vie"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/14/07/21/17/17/371387.jpg"
+
+19:
+  title: "La Grande Aventure Lego"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/210/618/21061838_20131128144957302.jpg"
+
+20:
+  title: "Clochette et la fée pirate"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/14/01/15/17/47/475648.jpg" 
+
+21:
+  title: "Jersey Boys"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/14/05/26/16/30/147796.jpg"
+
+22:
+  title: "Non-Stop"
+  cover: "http://fr.web.img6.acsta.net/cx_120_160/pictures/14/01/09/14/47/339936.jpg"
+
+23:
+  title: "M. Peabody et Sherman : Les Voyages dans le temps"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/13/12/23/16/46/254085.jpg"
+
+24:
+  title: "Hippocrate"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/07/04/14/59/301675.jpg"
+
+25:
+  title: "Avis de mistral"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/14/03/14/18/55/344241.jpg"
+
+26:
+  title: "The Amazing Spider-Man : le destin d'un Héros"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/14/04/08/14/38/427284.jpg"
+
+27:
+  title: "Xenia"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/14/04/24/15/55/031337.jpg"
+
+28:
+  title: "Ce soir je vais tuer l'assassin de mon fils"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/14/03/12/15/30/406008.jpg"
+
+29:
+  title: "Jimmy's Hall"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/05/13/10/49/264926.jpg"
+
+30:
+  title: "La Dune"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/14/06/30/15/35/074600.jpg"
+
+31:
+  title: "Rush"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/210/238/21023887_20130801123843604.jpg"
+
+32:
+  title: "Blackfish"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/210/101/21010109_2013060412481636.jpg"
+
+33:
+  title: "Prisoners"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/210/280/21028038_20130813155654441.jpg"
+
+34:
+  title: "Dallas Buyers Club"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/14/01/24/12/09/007448.jpg"
+
+35:
+  title: "Beyond : Two Souls"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/210/388/21038823_2013091114120708.jpg"
+
+36:
+  title: "Ne vivons plus comme des esclaves"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/02/05/15/35/271706.jpg"
+
+37:
+  title: "12 Years a Slave"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/210/415/21041568_2013091910085449.jpg"
+
+38:
+  title: "Dans l'ombre de Mary - La promesse de Walt Disney"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/13/12/30/16/21/252469.jpg"
+
+39:
+  title: "La Reine des neiges"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/210/521/21052146_20131023144339759.jpg"
+
+40:
+  title: "One Piece Film Z"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/medias/nmedia/18/96/08/02/20444170.jpg"
+
+41:
+  title: "Le Hobbit : la Désolation de Smaug"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/210/552/21055250_20131106114016251.jpg"
+
+42:
+  title: "Le Majordome"
+  cover: "http://fr.web.img6.acsta.net/cx_120_160/pictures/210/179/21017975_20130705175456051.jpg"
+
+43:
+  title: "Du sang et des larmes"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/210/592/21059262_20131119172933967.jpg"
+
+44:
+  title: "Capitaine Phillips"
+  cover: "http://fr.web.img6.acsta.net/cx_120_160/pictures/210/407/21040713_20130919122153669.jpg"
+
+45:
+  title: "De toutes nos forces"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/13/12/18/15/02/564759.jpg"
+
+46:
+  title: "Batman: The Dark Knight Returns, Part 2"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/commons/emptymedia/empty_photo.jpg"
+
+47:
+  title: "42"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/pictures/14/04/04/15/42/568235.jpg"
+
+48:
+  title: "Pierre Rabhi au nom de la terre"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/medias/nmedia/18/96/38/55/20463550.jpg"
+
+49:
+  title: "Hunger Games - L'embrasement"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/210/453/21045319_2013101714250983.jpg"
+
+50:
+  title: "The Grand Budapest Hotel"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/14/01/20/12/06/239820.jpg"
+
+51:
+  title: "States of Grace"
+  cover: "http://fr.web.img1.acsta.net/cx_120_160/pictures/14/03/19/15/44/124941.jpg"
+
+52:
+  title: "Les Croods"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/medias/nmedia/18/95/10/55/20502139.jpg"
+
+53:
+  title: "Conjuring : Les dossiers Warren"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/210/025/21002526_20130430172022533.jpg"
+
+54:
+  title: "Moi, moche et méchant 2"
+  cover: "http://fr.web.img2.acsta.net/cx_120_160/medias/nmedia/18/89/40/05/20532087.jpg"
+
+55:
+  title: "The Best Offer"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/14/03/07/11/24/214323.jpg"
+
+56:
+  title: "Tel père, tel fils"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/210/036/21003660_20131108102404011.jpg"
+
+57:
+  title: "Il était temps"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/210/232/21023225_20130729172913429.jpg"
+
+58:
+  title: "Philomena"
+  cover: "http://fr.web.img4.acsta.net/cx_120_160/pictures/210/587/21058784_20131118171801678.jpg"
+
+59:
+  title: "Her"
+  cover: "http://fr.web.img3.acsta.net/cx_120_160/pictures/14/03/10/10/26/014107.jpg"
+
+60:
+  title: "Mandela : Un long chemin vers la liberté"
+  cover: "http://fr.web.img5.acsta.net/cx_120_160/pictures/210/499/21049925_20131018174754482.jpg"
+

@@ -1,0 +1,62 @@
+<div class="row program_list liked">
+  <% @liked.each do |p| %>
+  <div class="col-md-2">
+    <img src="<%= p.cover %>" class="img-responsive img-thumbnail" title="<%= p.title %>" data-toggle="tooltip" data-placement="bottom">
+    <p>
+      <%= p.id %>
+    </p>
+  </div>
+  <% end %>
+</div>
+<hr />
+<div class="row program_list disliked">
+  <% @disliked.each do |p| %>
+  <div class="col-md-2">
+    <img src="<%= p.cover %>" class="img-responsive img-thumbnail" title="<%= p.title %>" data-toggle="tooltip" data-placement="bottom">
+    <p>
+      <%= p.id %>
+    </p>
+  </div>
+  <% end %>
+</div>
+<hr />
+<div class="row program_list" id="program_list">
+  <% @programs.each do |p| %>
+  <div class="col-md-2">
+    <img src="<%= p.cover %>" class="img-responsive img-thumbnail" title="<%= p.title %>" data-toggle="tooltip" data-placement="bottom">
+    <p>
+      <%= p.id %><br />
+      <% if current_user %>
+      <a href="#" data-url="<%= dislike_program_path(p.id) %>" class="rate_btn dislike_btn">Dislike</a> |
+      <a href="#" data-url="<%= like_program_path(p.id) %>" class="rate_btn like_btn">Like</a>
+      <% end %>
+    </p>
+  </div>
+  <% end %>
+</div>  
+
+<script type="text/javascript">
+  
+  $('#program_list img').tooltip({'placement': 'top'})
+  
+  function rateProgram(dataurl) {
+    $.ajax({
+      type: "POST",
+      url: dataurl,
+      beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+      success : function(data, textStatus){
+        console.log(data);
+        console.log(textStatus);
+      },
+      error : function(XMLHttpRequest, textStatus, errorThrown){
+        alert("Oops: "+errorThrown);
+      }
+    });
+  } 
+
+  $('a.rate_btn').click( function() {
+    rateProgram($(this).data('url'));
+    return false;
+  });
+
+</script>
